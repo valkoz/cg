@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c52e80d3-a870-4d58-928a-f74c5d9f551d" name="Default" comment="some commit from Idea">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nu_pattern_opencv_2_4_9_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/GaussImageMakerAlgo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ImageToMatrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Matrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Pixel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Region.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/RegionConstructor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Normalizer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/RandomImage.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomImageBlack.png" afterPath="$PROJECT_DIR$/RandomImageBlack.png" />
+    <list default="true" id="c52e80d3-a870-4d58-928a-f74c5d9f551d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ComputerGraphicsMephi.iml" afterPath="$PROJECT_DIR$/ComputerGraphicsMephi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomFile.txt" afterPath="$PROJECT_DIR$/RandomFile.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tasks.txt" afterPath="$PROJECT_DIR$/Tasks.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/RandomImage.java" afterPath="$PROJECT_DIR$/src/main/java/RandomImage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ImageToMatrix.java" afterPath="$PROJECT_DIR$/src/main/java/ImageToMatrix.java" />
     </list>
     <ignored path="ComputerGraphicsMephi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,8 +65,8 @@
       <file leaf-file-name="ImageToMatrix.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ImageToMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="496">
+              <caret line="55" column="135" selection-start-line="55" selection-start-column="135" selection-end-line="55" selection-end-column="135" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -652,6 +638,14 @@
       <option name="presentableId" value="Default" />
       <updated>1479333370398</updated>
     </task>
+    <task id="LOCAL-00001" summary="some commit from Idea">
+      <created>1480290204141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1480290204141</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1163,8 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ImageToMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="496">
+          <caret line="55" column="135" selection-start-line="55" selection-start-column="135" selection-end-line="55" selection-end-column="135" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
