@@ -16,8 +16,11 @@ static         ArrayList<Integer> gausspixelList = new ArrayList<Integer>();
     public static void main(String args[])throws IOException{
         //image dimension
 
-        randomImage();
-        gaussImage();
+    randomImage();
+    // gaussImage();
+    File f = new File("RandomImageBlack.png");
+   // GaussImageMakerAlgo.fillStorageFromImage(ImageIO.read(f));
+
 
     }//main() ends here
 
@@ -34,11 +37,12 @@ static         ArrayList<Integer> gausspixelList = new ArrayList<Integer>();
     }
 
     private static void randomImage(){
-        int width = 240;
-        int height = 160;
+        int width = 100;
+        int height = 100;
         BufferedImage img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
         File f = null;
         int alpha = 255;
+        int last = 0;
         for(int y = 0; y < height; y++){
             for(int x = 0; x < width; x++){
                 double a = Math.random();
@@ -46,9 +50,10 @@ static         ArrayList<Integer> gausspixelList = new ArrayList<Integer>();
                 pixelList.add(a);
                 int p = (alpha<<24) | (r<<16) | (r<<8) | r; //pixel
                 img.setRGB(x, y, p);
+                last = r;
             }
         }
-
+        System.out.println(last);
         try (final FileWriter writer = new FileWriter("RandomFile.txt", false))
         {
             for (Double aPixelList : pixelList) {
@@ -69,6 +74,7 @@ static         ArrayList<Integer> gausspixelList = new ArrayList<Integer>();
         }catch(IOException e){
             System.out.println("Error: " + e);
         }
+        //System.out.println(img.getRGB(width - 1, height - 1) % 256);
     }
 
     private static void gaussImage(){
